@@ -44,3 +44,10 @@ main {
   outline: none;
   cursor: pointer;
 }
+
+
+@media all and (max-width: 600px) {
+  .doggo-img {
+    height: 10rem;
+  }
+}
