@@ -45,6 +45,9 @@ main {
   cursor: pointer;
 }
 
+.breed {
+  margin: 1rem;
+}
 
 @media all and (max-width: 600px) {
   .doggo-img {
