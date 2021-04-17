@@ -10,13 +10,19 @@
 
 body {
   font-family: poppins;
-  background: hsl(16, 100%, 78%);
+  background: hsl(16, 100%, 75%);
 }
 
-header,
 main {
   display: grid;
   place-items: center;
+}
+
+header,
+.parent-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-h1,
@@ -45,12 +51,31 @@ main {
   cursor: pointer;
 }
 
+.more-doggo-btn:focus {
+  box-shadow: 0 0 2px #000;
+}
+
 .breed {
   margin: 1rem;
+}
+
+.download-p {
+  margin: 0.75rem;
+  text-decoration: underline 2px;
+  cursor: pointer;
 }
 
 @media all and (max-width: 600px) {
   .doggo-img {
     height: 10rem;
+  }
+
+  .header-h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .header-h4 {
+    text-align: center;
   }
 }
